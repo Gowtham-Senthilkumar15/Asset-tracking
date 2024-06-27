@@ -1,0 +1,57 @@
+.background-image {
+  background-image: url('../../assets/b3.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background for the login form */
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px; /* Adjust width as needed */
+}
+
+.card {
+  border: none; /* Remove card border if not needed */
+}
+
+.asset-tracker-title {
+  color: #333; /* Adjust title color */
+  margin-bottom: 10px; /* Space below the title */
+}
+
+.card-title {
+  color: #333; /* Adjust title color */
+  margin-bottom: 20px; /* Space below the title */
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-control {
+  border-radius: 5px; /* Rounded corners for form inputs */
+}
+
+.btn-danger {
+  background-color: #dc3545; /* Red color for login button */
+  border-color: #dc3545; /* Match button border color with background color */
+}
+
+.btn-danger:hover {
+  background-color: #c82333; /* Darker red color on hover */
+  border-color: #c82333;
+}
+
+.error-msg {
+  color: red;
+  font-size: 14px;
+  text-align: center;
+  margin-top: 10px; /* Space above the error message */
+}
